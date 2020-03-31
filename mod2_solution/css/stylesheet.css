@@ -1,0 +1,65 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  margin: 0;
+}
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 175%;
+}
+
+div {
+  border: 1px solid black;
+  height: 120px;
+}
+.subtitle{
+  width:10%;
+  font-size: 125%;
+  position: ;
+  border: 1px solid black;
+
+}
+p{
+
+}
+
+
+/********** Large devices only ***********/
+@media (min-width: 992px) {
+.largeleft,.largecenter,.largeright{
+  float: left;
+}
+.largeleft{
+  width: 30%;
+  margin-left: 2.5%;
+  margin-right: 1.25%;
+
+}
+.largecenter{
+  width: 30%;
+  margin-left:1.25%;
+  margin-right: 1.25%;
+
+}
+.largeright{
+  width: 30%;
+  margin-left: 1.25%;
+  margin-right: 2.5%;
+}
+
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+/********** Small devices only ***********/
+@media (max-width: 767px){
+
+
+}
