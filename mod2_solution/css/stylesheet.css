@@ -13,18 +13,41 @@ h1 {
 }
 
 div {
-  border: 1px solid black;
-  height: 120px;
+  position: relative;
+  border: 2px solid black;
+  height: 175px;
+  background-color: #B6B5B5;
+
 }
 .subtitle{
-  width:10%;
+  width:200px;
+  height: 25%;
+  margin: 0;
   font-size: 125%;
-  position: ;
-  border: 1px solid black;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: 700;
+  padding-top: 8px;
+
 
 }
-p{
+#salmon {
+  background-color: #fa8072;
+}
+#red {
+  background-color: #DF3434;
+}
+#yellow {
+  background-color: #FFF673;
+}
 
+.descriptions{
+  font-weight: 510;
 }
 
 
@@ -51,15 +74,60 @@ p{
   margin-right: 2.5%;
 }
 
+.descriptions{
+  margin: 13% 2% 2% 2%;
+  text-align: justify;
+  text-indent: 3%;
+}
+
 
 }
 
 /********** Medium devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
+  .midleft,.midright,.midbottom{
+  float: left;
+}
+.midleft{
+  width: 46.25%;
+  margin-left: 2.5%;
+  margin-right: 1.25%;
+
+}
+.midright{
+  width: 46.25%;
+  margin-left:1.25%;
+  margin-right: 2.5%;
+
+}
+.midbottom{
+  width: 95%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-top: 15px;
+}
+.descriptions{
+  margin: 12% 2% 2% 2%;
+  text-align: justify;
+  text-indent: 3%;
+}
+#midbottomdesc{
+  margin: 7% 2% 2% 2%;
+}
 
 }
 /********** Small devices only ***********/
 @media (max-width: 767px){
-
+  .small{
+  float: left;
+  width: 95%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-top: 15px;
+}
+.descriptions{
+  margin: 11% 2% 2% 2%;
+  text-align: justify;
+  text-indent: 3%;
 
 }
